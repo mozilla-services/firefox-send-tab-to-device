@@ -2,7 +2,7 @@
     "name": "send-tab-to-device",
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
     "author": "Gregory Szorc <gps@mozilla.com>",
-    "version": "0.3",
+    "version": "0.4",
     "fullName": "Send Tab to Device",
     "id": "jid1-mdjmA7if6lo8lA",
     "description": "Send a tab or link to another device using Firefox Sync"
