@@ -5,5 +5,6 @@
     "version": "0.6",
     "fullName": "Send Tab to Device",
     "id": "jid1-mdjmA7if6lo8lA",
-    "description": "Send a tab or link to another device using Firefox Sync"
+    "description": "Send a tab or link to another device using Firefox Sync",
+    "permissions": {"private-browsing": true}
 }
