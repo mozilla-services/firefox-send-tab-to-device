@@ -1,10 +1,12 @@
-const main = require("main");
+
+const main = require("../lib/main");
+const self = require("sdk/self");
 
 exports["test main and onUnload"] = function(test) {
   let options = {
-    id: require("self").id,
-    name: require("self").name,
-    version: require("self").version,
+    id: self.id,
+    name: self.name,
+    version: self.version,
   };
 
   options.loadReason = "install";
@@ -17,4 +19,4 @@ exports["test main and onUnload"] = function(test) {
   test.pass();
 };
 
-require("test").run(exports);
+require("sdk/test").run(exports);
