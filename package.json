@@ -2,10 +2,17 @@
     "name": "send-tab-to-device",
     "license": "MPL 2.0",
     "author": "Gregory Szorc <gps@mozilla.com>",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "title": "Send Tab to Device",
     "id": "jid1-mdjmA7if6lo8lA@jetpack",
     "description": "Send a tab or link to another device using Firefox Sync",
     "main": "./lib/main",
-    "permissions": {"private-browsing": true}
+    "permissions": {"private-browsing": true},
+    "preferences": [{
+      "name": "checkSyncEnabled",
+      "title": "Warn me if Firefox Sync is off",
+      "description": "Warn me during Firefox startup if the Sync service is off",
+      "type": "bool",
+      "value": true
+    }]
 }
